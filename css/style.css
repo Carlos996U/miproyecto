@@ -1,0 +1,248 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /**Reset para los REMS - 62.5% = 10px de 16px**/
+}
+.Msj{
+    background-image:url(../Recursos/mikasa.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 40rem;
+    min-height: 40rem;
+    max-width: 100%;
+    margin-top: 4rem;
+}
+.Msj h3{
+    
+    padding-top:2rem;
+    max-width: 75rem;
+    line-height: 1;
+    margin-left: 6rem;
+    color:#71b100;
+}
+.Msj p{
+    color: #fff;
+    padding-top: 1rem;
+    max-width: 75rem;
+    line-height: 1;
+    font-weight: 300;
+    margin-left: 6rem;
+}
+.camiseta{
+    color:  #71b100 ;
+}
+#header1 {
+    background-image: url(../Recursos/bronson.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    min-height: 45rem;
+
+}
+/**Globales**/
+img{
+    max-width: 100%;
+}
+
+h1{
+    font-size: 3.8rem;
+}
+h2{
+    font-size: 3.4rem;
+}
+h3{
+    font-size: 3rem;
+}
+p{
+    font-size: 2rem;
+}
+.d-block{
+    display: block!important;
+}
+.botones{
+    margin-top: 10px;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #fff;
+    padding: 1rem 3rem;
+    display:inline-block;
+    text-align: center;
+}
+.carrito{
+    font-size: 3rem;
+    color: rgba(255, 255, 255, .8);
+}
+.boton-azul{
+    background-color: #e08709;
+}
+.boton-contacto{
+    margin-top: 10px;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #fff;
+    padding: 1rem 3rem;
+    display:inline-block;
+    text-align: center;
+    margin-left: 10rem;
+    margin-top: 8rem;
+}
+blockquote{
+   font-size: 2.2rem;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.section{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contenedor{
+
+    max-width: 140rem;
+    margin: 0 auto 0 auto;
+}
+
+.contenidoHeader{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    justify-content: space-between;
+}
+
+.contenidoHeader h1{
+    color: #fff;
+    padding-top: 2rem;
+    max-width: 70rem;
+    line-height: 1.8;
+}
+
+.barra{
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+.navegacion a{
+
+    color:rgba(255, 255, 255, .8);
+    font-size: 1.8rem;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+.navegacion a:hover{
+    color: #6fd4f2;
+}
+
+.carrito a:hover{
+    color: #6fd4f2;
+}
+
+.icono-nosotros{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Mas{
+    text-align: center;
+    color: #889b9e;
+    justify-content: space-between;
+    font-weight: 300;
+}
+
+.iconos{
+    flex-basis: calc (33.3% - 1rem) ;
+    text-align: center;
+}
+
+#np{
+    font-weight: 300;
+    color: #889b9e;
+    text-align: center;
+}
+
+.contenedor-anuncio {
+    display: flex;
+    justify-content: space-between;
+}
+
+.anuncio{
+    flex-basis: calc (33.3% - 1rem) ; 
+    border-style: solid;
+    border-color: silver;
+    border-width: 1px;
+    background-color: #f5f5f5;
+}
+
+.anuncio img{
+    max-width: 90%;
+}
+.contenido-anuncio{
+    padding: 2rem;
+}
+
+.contenido-anuncio h3{
+    margin: 0;
+}
+
+.seccion-inferior{
+    display: flex;
+    margin: 2rem;
+    justify-content: space-between;
+    flex-basis: calc (33-3% --1rem);
+}
+
+.testimonio{
+    flex-basis: calc (33.3% - 1rem) ; 
+    border-radius: 2rem;
+    border-color:#6fd4f2 ;
+    border-width: 1px;
+    background-color: #71b100;
+}
+.testimonio p, img{
+    color: #fff;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.testimonio blockquote{
+    color: #fff;
+    max-width: 30rem;
+
+}
+
+
+
+.blog h2{
+    text-align: center;
+    font-weight: 300;
+    color: #889b9e;
+}
+
+.site-footer{
+   background-color: #333333;
+   margin: 0;
+}
+.copyright{
+    margin: 0;
+}
+.contenedorfooter{
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-footer p{
+    color: #fff;
+}
+
+
+
+
+    
+
+
